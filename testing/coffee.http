@@ -1,0 +1,8 @@
+GET http://localhost:3000/api/v2/coffees HTTP/1.1
+content-type: application/json
+
+### -------- Get Coffee by Coffee Id
+GET http://localhost:3000/api/v2/coffees/3 HTTP/1.1
+content-type: application/json
+
+
